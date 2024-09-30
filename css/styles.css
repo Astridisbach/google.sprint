@@ -1,0 +1,138 @@
+* {
+    margin: 0;M
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #af9c87;
+    color: #3e3027;
+}
+
+header{
+    padding: 10px 20px;    
+    display: flex;    
+    justify-content: space-between;    
+    align-items: center;
+
+}
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    margin-right: 0;
+    max-width: 0 auto;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3e3027;
+    font-weight: bold;
+}
+
+.line{
+
+    height: 6px;               
+    background-color: #3e3027;    
+    width: 100%;                 
+    margin: 20px 0;
+
+}
+
+.filters{
+    text-align: center;    
+    padding: 20px 0;    
+    background-color: #af9c87;
+
+}
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+.filter-buttons button {
+    background-color: #af9c87;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #3e3027;
+    font-size: 14px;
+}
+
+.filter-buttons button {
+    background-color: #b35a39;
+    color: #3e3027;
+}
+
+.games-list{
+    margin: auto;
+
+}
+
+.games-list h3 {
+    padding: 20px;
+    background-color: #af9c87;
+
+}
+
+.games-list h3 {
+    text-align: center;
+    color: #3e3027;
+    margin-bottom: 20px;
+}
+
+.game-grid {
+    position: relative;
+    width: 777px;
+    display: grid;    
+    grid-template-columns: repeat(8, 100px); /* 5 columns */    
+    gap: 20px;    
+    text-align: left;    
+    margin: auto;    
+    max-width: 1000px; /* Optional: Set a max width */
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #3e3027;
+}
+
+.game-grid p {
+    color: #3e3027;
+    text-align: left;
+}
+
+
+.game-highlights {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.highlight {
+    width: 200px;
+    height: 200px;
+    background-color: #9b5200;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: "#3e3027";
+    font-weight: bold;
+}
